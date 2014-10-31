@@ -1,0 +1,5 @@
+.editorconfig
+.gitignore
+gulpfile.js
+.jshintrc
+test.js
