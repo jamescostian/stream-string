@@ -1,0 +1,25 @@
+{
+	"name": "stream-string",
+	"repository": "https://github.com/jamescostian/stream-string",
+	"version": "0.1.0",
+	"license": "MIT",
+	"contributors": [
+		"James Costian <james@jamescostian.com> (http://jamescostian.com)"
+	],
+	"keywords": ["stream"],
+	"engines": {
+		"node": ">=0.8"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "gulp"
+	},
+	"dependencies": {
+		"bluebird": "2.3.x"
+	},
+	"devDependencies": {
+		"gulp": "3.8.x",
+		"gulp-mocha": "1.1.x",
+		"gulp-jshint": "1.8.x"
+	}
+}
