@@ -1,5 +1,6 @@
 .editorconfig
 .gitignore
+.travis.yml
 gulpfile.js
 .jshintrc
 test.js
