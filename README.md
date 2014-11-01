@@ -5,6 +5,7 @@
 Converts a stream to a string and supports promises.
 
 # Installation
+
 Assuming you have [Node](http://nodejs.org) and [NPM](https://npmjs.org) (which is bundled with Node), you can just run:
 
 ```
