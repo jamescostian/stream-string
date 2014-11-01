@@ -1,8 +1,8 @@
-# Stream-String
+# Stream-String [![build status](https://secure.travis-ci.org/jamescostian/stream-string.png)](http://travis-ci.org/jamescostian/stream-string)
+
+[![NPM](https://nodei.co/npm/stream-string.png)](https://nodei.co/npm/stream-string.png?compact=true)
 
 Converts a stream to a string and supports promises.
-
-[![build status](https://secure.travis-ci.org/jamescostian/stream-string.png)](http://travis-ci.org/jamescostian/stream-string)
 
 # Installation
 Assuming you have [Node](http://nodejs.org) and [NPM](https://npmjs.org) (which is bundled with Node), you can just run:
