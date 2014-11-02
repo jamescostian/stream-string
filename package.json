@@ -1,5 +1,6 @@
 {
 	"name": "stream-string",
+	"description": "Converts a stream to a string and supports promises.",
 	"repository": "https://github.com/jamescostian/stream-string",
 	"version": "0.1.0",
 	"license": "MIT",
