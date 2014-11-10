@@ -1,5 +1,4 @@
 'use strict';
-var noop = function () {}
 
 var streamToString = function (stream, callback) {
 	var string = ''
@@ -9,7 +8,7 @@ var streamToString = function (stream, callback) {
 	stream.on('end', function () {
 		callback && callback(null, string)
 	})
-	stream.on('error', callback ? callback : noop)
+	stream.on('error', callback)
 }
 
 module.exports = require('bluebird').promisify(streamToString)

@@ -2,7 +2,7 @@ var assert = require('assert')
 var util = require('util')
 var fs = require('fs')
 
-var converter = require('./index.js')
+var converter = require('../index.js')
 
 describe('converter', function () {
 	it('should work if promises are used', function (done) {

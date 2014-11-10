@@ -13,14 +13,15 @@
 	},
 	"main": "index.js",
 	"scripts": {
-		"test": "gulp"
+		"test": "make test"
 	},
 	"dependencies": {
 		"bluebird": "2.3.x"
 	},
 	"devDependencies": {
-		"gulp": "3.8.x",
-		"gulp-mocha": "1.1.x",
-		"gulp-jshint": "1.8.x"
+		"jshint": "2.5.x",
+		"coveralls": "2.11.x",
+		"mocha": "2.0.x",
+		"istanbul": "0.3.x"
 	}
 }
