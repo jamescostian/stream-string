@@ -1,5 +1,7 @@
+coverage
 .editorconfig
 .gitignore
+Makefile
 .travis.yml
 .jshintrc
 test.js
