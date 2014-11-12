@@ -1,8 +1,10 @@
-# Stream-String [![build status](https://secure.travis-ci.org/jamescostian/stream-string.png)](http://travis-ci.org/jamescostian/stream-string)
+# Stream-String
 
-[![NPM](https://nodei.co/npm/stream-string.png)](https://nodei.co/npm/stream-string.png?compact=true)
+[![Build Status](https://img.shields.io/travis/jamescostian/stream-string.svg?style=flat)](https://travis-ci.org/jamescostian/stream-string)
+[![Coverage Status](https://img.shields.io/coveralls/jamescostian/stream-string.svg?style=flat)](https://coveralls.io/r/jamescostian/stream-string?branch=master)
 
 Converts a stream to a string and supports promises.
+
 
 # Installation
 
