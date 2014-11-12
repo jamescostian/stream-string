@@ -3,6 +3,8 @@ JSHINT = $(MODULE_BINS)/jshint
 MOCHA = $(MODULE_BINS)/_mocha
 ISTANBUL = $(MODULE_BINS)/istanbul
 
+test: jshint mocha
+
 mocha:
 	$(MOCHA) --bail
 
@@ -13,8 +15,6 @@ travis: mocha
 	$(ISTANBUL) cover $(MOCHA) --report lcovonly -- --reporter spec
 
 jshint:
-	$(JSHINT) index.js
+	$(JSHINT) index.js package.json test
 
-test: jshint mocha cov
-
-.PHONY: mocha
+.PHONY: test mocha cov travis jshint
