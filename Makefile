@@ -11,7 +11,7 @@ mocha:
 cov:
 	$(ISTANBUL) cover $(MOCHA) -- --reporter spec
 
-travis: mocha
+travis:
 	$(ISTANBUL) cover $(MOCHA) --report lcovonly -- --reporter spec
 
 jshint:
