@@ -21,7 +21,8 @@
 	"devDependencies": {
 		"jshint": "2.5.x",
 		"coveralls": "2.11.x",
-		"mocha": "2.0.x",
+		"tape": "3.0.x",
+		"faucet": "0.0.1",
 		"istanbul": "0.3.x"
 	}
 }
