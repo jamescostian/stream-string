@@ -4,4 +4,4 @@ coverage
 Makefile
 .travis.yml
 .jshintrc
-test.js
+test
