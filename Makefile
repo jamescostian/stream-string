@@ -4,10 +4,10 @@ TAPE = $(MODULE_BINS)/tape
 FAUCET = $(MODULE_BINS)/faucet
 ISTANBUL = $(MODULE_BINS)/istanbul
 
-unit:
-	$(FAUCET)
+test: jshint faucet
 
-test: jshint unit
+faucet:
+	$(FAUCET)
 
 cov:
 	$(ISTANBUL) cover $(TAPE) test/**/*.js
@@ -17,4 +17,4 @@ travis: jshint cov
 jshint:
 	$(JSHINT) index.js package.json test
 
-.PHONY: unit test cov travis jshint
+.PHONY: test faucet cov travis jshint
