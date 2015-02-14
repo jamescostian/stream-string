@@ -2,6 +2,9 @@
 
 [![Build Status](https://img.shields.io/travis/jamescostian/stream-string.svg?style=flat)](https://travis-ci.org/jamescostian/stream-string)
 [![Coverage Status](https://img.shields.io/coveralls/jamescostian/stream-string.svg?style=flat)](https://coveralls.io/r/jamescostian/stream-string?branch=master)
+[![Dependency Status](https://img.shields.io/gemnasium/jamescostian/stream-string.svg?style=flat)](https://gemnasium.com/jamescostian/stream-string)
+[![License](https://img.shields.io/npm/l/stream-string.svg?style=flat)](https://github.com/jamescostian/stream-string/blob/master/LICENSE)
+![NPM Version](https://img.shields.io/npm/v/stream-string.svg)
 
 Converts a stream to a string and supports promises.
 
