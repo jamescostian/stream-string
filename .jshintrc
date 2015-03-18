@@ -1,12 +1,5 @@
 {
-	"globals": {
-		"describe": true,
-		"it": true,
-		"beforeEach": true,
-		"before": true,
-		"afterEach": true,
-		"after": true
-	},
+	"globals": {},
 	"bitwise": true,
 	"camelcase": false,
 	"curly": true,
