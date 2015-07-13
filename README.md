@@ -5,9 +5,9 @@
 [![Dependency Status](https://img.shields.io/gemnasium/jamescostian/stream-string.svg?style=flat)](https://gemnasium.com/jamescostian/stream-string)
 [![License](https://img.shields.io/npm/l/stream-string.svg?style=flat)](https://github.com/jamescostian/stream-string/blob/master/LICENSE)
 ![NPM Version](https://img.shields.io/npm/v/stream-string.svg)
+![Downloads/Month](https://img.shields.io/npm/dm/stream-string.svg)
 
 Converts a stream to a string and supports promises.
-
 
 # Installation
 
@@ -17,9 +17,9 @@ Assuming you have [Node](http://nodejs.org) or [io.js](http://iojs.org), you can
 npm install --save stream-string
 ```
 
-# Example
+# Examples
 
-## Callbacks
+## Using Callbacks
 
 ```js
 var fs = require('fs')
@@ -40,7 +40,7 @@ ss(myStream, function (err, data) {
 })
 ```
 
-## Promises
+## Using Promises
 
 ```js
 var fs = require('fs')
