@@ -29,14 +29,14 @@ var ss = require('stream-string')
 var myStream = fs.createReadStream('./file').pipe(require('zlib').createGzip())
 
 ss(myStream, function (err, data) {
-	if (err) {
-		// Stream threw an error event
-		throw err
-	}
-	else {
-		// myStream was converted to a string, and that string is stored in data
-		console.log(data)
-	}
+    if (err) {
+        // Stream threw an error event
+        throw err
+    }
+    else {
+        // myStream was converted to a string, and that string is stored in data
+        console.log(data)
+    }
 })
 ```
 
@@ -50,11 +50,11 @@ var ss = require('stream-string')
 var myStream = fs.createReadStream('./file').pipe(require('zlib').createGzip())
 
 ss(myStream).then(function (data) {
-	// myStream was converted to a string, and that string is stored in data
-	console.log(data)
+    // myStream was converted to a string, and that string is stored in data
+    console.log(data)
 }).error(function (err) {
-	// Stream threw an error event
-	throw err
+    // Stream threw an error event
+    throw err
 })
 ```
 

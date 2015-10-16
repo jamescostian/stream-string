@@ -1,28 +1,36 @@
 {
-	"name": "stream-string",
-	"description": "Converts a stream to a string and supports promises.",
-	"repository": "https://github.com/jamescostian/stream-string",
-	"version": "1.0.2",
-	"license": "MIT",
-	"contributors": [
-		"James Costian <james@jamescostian.com> (http://jamescostian.com)"
-	],
-	"keywords": ["stream"],
-	"engines": {
-		"node": ">=0.10"
-	},
-	"main": "index.js",
-	"scripts": {
-		"test": "make test"
-	},
-	"dependencies": {
-		"bluebird": "2.9.x"
-	},
-	"devDependencies": {
-		"jshint": "2.8.x",
-		"coveralls": "2.11.x",
-		"tape": "4.0.x",
-		"faucet": "0.0.1",
-		"istanbul": "0.3.x"
-	}
+  "name": "stream-string",
+  "description": "Converts a stream to a string and supports promises.",
+  "repository": "https://github.com/jamescostian/stream-string",
+  "version": "1.0.2",
+  "license": "MIT",
+  "contributors": [
+    "James Costian <james@jamescostian.com> (http://jamescostian.com)"
+  ],
+  "keywords": [
+    "stream"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "cov": "istanbul cover test/test.js",
+    "lint": "snazzy",
+    "pretest": "npm run lint",
+    "pretravis": "npm run lint",
+    "test": "node test/test.js | tap-spec",
+    "travis": "npm run cov"
+  },
+  "dependencies": {
+    "bluebird": "2.9.x"
+  },
+  "devDependencies": {
+    "coveralls": "^2",
+    "istanbul": "^0.3",
+    "snazzy": "^2",
+    "standard": "^5",
+    "tap-spec": "^4",
+    "tape": "^4"
+  }
 }
