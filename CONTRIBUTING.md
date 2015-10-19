@@ -1,15 +1,61 @@
-# Contributor Code of Conduct
+# Contributing Guidelines
 
-As contributors and maintainers of this project, we pledge to respect all people who contribute through reporting issues, posting feature requests, updating documentation, submitting pull requests or patches, and other activities.
+Contributions welcome!
 
-We are committed to making participation in this project a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion.
+**Before spending lots of time on something, ask for feedback on your idea first!**
 
-Examples of unacceptable behavior by participants include the use of sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct.
+Please search issues and pull requests before adding something new to avoid duplicating efforts and conversations.
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct. Project maintainers who do not follow the Code of Conduct may be removed from the project team.
+In addition to improving the project by refactoring code and implementing relevant features, this project welcomes the following types of contributions:
 
-This code of conduct applies both within project spaces and in public spaces when an individual is representing the project or its community.
+- **Ideas**: participate in an issue thread or start your own to have your voice heard.
+- **Writing**: contribute your expertise in an area by helping expand the included content.
+- **Copy editing**: fix typos, clarify language, and generally improve the quality of the content.
+- **Formatting**: help keep content easy to read with consistent formatting.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by opening an issue or contacting one or more of the project maintainers.
+## Installing
 
-This Code of Conduct is adapted from the [Contributor Covenant](http://contributor-covenant.org), version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](http://contributor-covenant.org/version/1/1/0/)
+Fork and clone the repo, then `npm install` to install all dependencies.
+
+## Testing
+
+Tests are run with `npm test`. Unless you're creating a failing test to increase test coverage or show a problem, please make sure all tests are passing before submitting a pull request.
+
+## Code Style
+
+[![standard][standard-image]][standard-url]
+
+This repository uses [`standard`][standard-url] to maintain code style and consistency and avoid style arguments. `npm test` runs `standard` so you don't have to!
+
+[standard-image]: https://cdn.rawgit.com/feross/standard/master/badge.svg
+[standard-url]: https://github.com/feross/standard
+[semistandard-image]: https://cdn.rawgit.com/flet/semistandard/master/badge.svg
+[semistandard-url]: https://github.com/Flet/semistandard
+
+---
+
+# Collaborating Guidelines
+
+**This is an OPEN Open Source Project.**
+
+## What?
+
+Individuals making significant and valuable contributions are given commit access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
+
+## Rules
+
+There are a few basic ground rules for collaborators:
+
+1. **No `--force` pushes** or modifying the Git history in any way.
+1. **Non-master branches** ought to be used for ongoing work.
+1. **External API changes and significant modifications** ought to be subject to an **internal pull request** to solicit feedback from other collaborators.
+1. Internal pull requests to solicit feedback are *encouraged* for any other non-trivial contribution but left to the discretion of the contributor.
+1. Contributors should attempt to adhere to the prevailing code style.
+
+## Releases
+
+Declaring formal releases remains the prerogative of the project maintainer.
+
+## Changes to this arrangement
+
+This is an experiment and feedback is welcome! This document may also be subject to pull requests or changes by collaborators where you believe you have something valuable to add or change.
