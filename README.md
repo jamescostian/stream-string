@@ -9,7 +9,7 @@
 
 Converts a stream to a string and supports promises.
 
-# Installation
+## Installation
 
 Assuming you have [Node](http://nodejs.org) or [io.js](http://iojs.org), you can just run:
 
@@ -17,9 +17,9 @@ Assuming you have [Node](http://nodejs.org) or [io.js](http://iojs.org), you can
 npm install --save stream-string
 ```
 
-# Examples
+## Usage
 
-## Using Callbacks
+### Callbacks
 
 ```js
 var fs = require('fs')
@@ -40,7 +40,7 @@ ss(myStream, function (err, data) {
 })
 ```
 
-## Using Promises
+### Promises
 
 ```js
 var fs = require('fs')
@@ -58,10 +58,10 @@ ss(myStream).then(function (data) {
 })
 ```
 
-# Development
+## Contributing
 
-+ Fork this project, make a branch from `master`, work in that branch, and then submit a pull request
-+ This project has always had 100% code coverage - please write tests that thoroughly test every line of code you add
-+ TAPE tests are in the `test` directory. You can run them with `npm test` or `make test`.
-+ To see the code coverage, run `make cov`
-+ If you make a change, mention it in the CHANGELOG. [Here](http://keepachangelog.com/) is a style guide reference
+Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first. Also, try to keep code coverage up - use `npm run cov` to see code coverage. To run tests, use `npm test`
+
+## License
+
+[ISC](LICENSE)
