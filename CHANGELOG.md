@@ -1,5 +1,17 @@
-# Change Log
-All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
+# stream-string change log
+
+All notable changes to this project will be documented in this file.
+This project adheres to [Semantic Versioning](http://semver.org/).
+
+## [Unreleased][unreleased]
+### Added
+- Code of Conduct
+- Support for Node 4.x.x
+
+### Changed
+- Switch from special JSHint rules to [standard](https://github.com/feross/standard)
+- Make project files more in line with those from [module-init](https://github.com/ngoldman/module-init)
+- Switch from MIT to ISC
 
 ## [v1.0.2][1.0.2]
 ### Added
