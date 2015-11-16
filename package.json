@@ -1,7 +1,6 @@
 {
   "name": "stream-string",
   "description": "Converts a stream to a string and supports promises.",
-  "repository": "https://github.com/jamescostian/stream-string",
   "version": "1.0.2",
   "license": "ISC",
   "contributors": [
@@ -14,6 +13,10 @@
     "node": ">=0.10"
   },
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamescostian/stream-string.git"
+  },
   "scripts": {
     "cov": "istanbul cover test/test.js",
     "lint": "snazzy",
