@@ -9,9 +9,6 @@
   "keywords": [
     "stream"
   ],
-  "engines": {
-    "node": ">=0.10"
-  },
   "main": "index.js",
   "repository": {
     "type": "git",
