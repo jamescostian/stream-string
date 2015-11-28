@@ -2,10 +2,8 @@
   "name": "stream-string",
   "description": "Converts a stream to a string and supports promises.",
   "version": "1.0.2",
+  "author": "James Costian <james@jamescostian.com>",
   "license": "ISC",
-  "contributors": [
-    "James Costian <james@jamescostian.com> (http://jamescostian.com)"
-  ],
   "keywords": [
     "stream"
   ],
