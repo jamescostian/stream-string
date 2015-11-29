@@ -3,6 +3,9 @@
   "description": "Converts a stream to a string and supports promises.",
   "version": "1.0.2",
   "author": "James Costian <james@jamescostian.com>",
+  "bugs": {
+    "url": "https://github.com/jamescostian/stream-string/issues"
+  },
   "license": "ISC",
   "keywords": [
     "stream"
