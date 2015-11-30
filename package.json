@@ -6,6 +6,17 @@
   "bugs": {
     "url": "https://github.com/jamescostian/stream-string/issues"
   },
+  "dependencies": {
+    "bluebird": "^3"
+  },
+  "devDependencies": {
+    "coveralls": "^2",
+    "istanbul": "^0.4",
+    "snazzy": "^2",
+    "standard": "^5",
+    "tap-spec": "^4",
+    "tape": "^4"
+  },
   "license": "ISC",
   "keywords": [
     "stream"
@@ -22,16 +33,5 @@
     "pretravis": "npm run lint",
     "test": "node test/test.js | tap-spec",
     "travis": "npm run cov"
-  },
-  "dependencies": {
-    "bluebird": "2.9.x"
-  },
-  "devDependencies": {
-    "coveralls": "^2",
-    "istanbul": "^0.3",
-    "snazzy": "^2",
-    "standard": "^5",
-    "tap-spec": "^4",
-    "tape": "^4"
   }
 }
