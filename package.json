@@ -17,10 +17,10 @@
     "tap-spec": "^4",
     "tape": "^4"
   },
-  "license": "ISC",
   "keywords": [
     "stream"
   ],
+  "license": "ISC",
   "main": "index.js",
   "repository": {
     "type": "git",
