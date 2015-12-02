@@ -17,6 +17,7 @@
     "tap-spec": "^4",
     "tape": "^4"
   },
+  "homepage": "https://github.com/jamescostian/stream-string"
   "keywords": [
     "stream"
   ],
