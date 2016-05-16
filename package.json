@@ -12,8 +12,8 @@
   "devDependencies": {
     "coveralls": "^2",
     "istanbul": "^0.4",
-    "snazzy": "^2",
-    "standard": "^5",
+    "snazzy": "^4",
+    "standard": "^7",
     "tap-spec": "^4",
     "tape": "^4"
   },
