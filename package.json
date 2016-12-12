@@ -11,9 +11,8 @@
   },
   "devDependencies": {
     "coveralls": "^2",
-    "istanbul": "^0.4",
-    "snazzy": "^4",
-    "standard": "^7",
+    "nyc": "^10",
+    "snazzy": "^5",
     "tap-spec": "^4",
     "tape": "^4"
   },
@@ -28,11 +27,20 @@
     "url": "https://github.com/jamescostian/stream-string.git"
   },
   "scripts": {
-    "cov": "istanbul cover test/test.js",
-    "lint": "snazzy",
-    "pretest": "npm run lint",
-    "pretravis": "npm run lint",
-    "test": "node test/test.js | tap-spec",
-    "travis": "npm run cov"
+    "coveralls": "nyc --reporter=text-lcov node test/test.js | coveralls",
+    "cov": "nyc --reporter=html --reporter=text node test/test.js",
+    "pretest": "snazzy",
+    "test": "node test/test.js | tap-spec"
+  },
+  "nyc": {
+    "lines": 99,
+    "statements": 99,
+    "functions": 99,
+    "branches": 99,
+    "include": [
+      "index.js"
+    ],
+    "cache": true,
+    "all": true
   }
 }
