@@ -6,12 +6,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased][unreleased]
 ### Added
 - Code of Conduct
-- Support for Node 4.x.x
+- Added support for Node v6 and beyond
 
 ### Changed
+- Use Jest for testing and code coverage
 - Switch from special JSHint rules to [standard](https://github.com/feross/standard)
-- Make project files more in line with those from [module-init](https://github.com/ngoldman/module-init)
+- Make project files slightly more in line with those from [module-init](https://github.com/ngoldman/module-init)
 - Switch from MIT to ISC
+
+### Removed
+- Support for versions of Node before v6
 
 ## [v1.0.2][1.0.2]
 ### Added

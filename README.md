@@ -60,7 +60,7 @@ ss(myStream, (err, data) => {
 
 ## Contributing
 
-Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first. Also, try to keep code coverage up - use `npm run cov` to see code coverage. To run tests, use `npm test`
+Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first. Also, try to keep code coverage up - `npm test` will tell you the code coverage near the end of its output, not to mention the fact that it will first test your code :smiley:
 
 ## License
 
