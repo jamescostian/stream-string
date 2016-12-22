@@ -19,6 +19,7 @@
     "collectCoverage": true
   },
   "keywords": [
+    "convert",
     "stream"
   ],
   "license": "ISC",
