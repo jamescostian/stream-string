@@ -17,7 +17,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Removed
 - Support for versions of Node before v6
 
-## [v1.0.2][1.0.2]
+## [v1.0.2][1.0.2] - 2015-07-13
 ### Added
 - Downloads/month badge on README
 - LICENSE
@@ -26,11 +26,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Updated dependencies
 
-## [v1.0.1][1.0.1]
+## [v1.0.1][1.0.1] - 2015-03-18
 ### Added
 - 2 more tests
 
-## [v1.0.0][1.0.0]
+## [v1.0.0][1.0.0] - 2015-02-14
 After using v0.1.0 for a while and updating some dependencies, this project was ready to be bumped to v1.0.0.
 ### Changed
 - Run tests with `make test` or `npm test`
