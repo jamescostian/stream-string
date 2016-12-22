@@ -6,9 +6,6 @@
   "bugs": {
     "url": "https://github.com/jamescostian/stream-string/issues"
   },
-  "dependencies": {
-    "bluebird": "^3"
-  },
   "devDependencies": {
     "coveralls": "^2",
     "nyc": "^10",

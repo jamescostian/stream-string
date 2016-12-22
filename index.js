@@ -1,14 +1,17 @@
 'use strict'
 
-var streamToString = function (stream, callback) {
-  var string = ''
-  stream.on('data', function (data) {
-    string += data.toString()
+module.exports = (stream, callback) => {
+  const promise = new Promise((resolve, reject) => {
+    let string = ''
+    stream.on('data', data => {
+      string += data.toString()
+    })
+    stream.on('end', () => resolve(string))
+    stream.on('error', reject)
   })
-  stream.on('end', function () {
-    callback && callback(null, string)
-  })
-  stream.on('error', callback)
+  if (typeof callback === 'undefined') {
+    return promise
+  } else {
+    promise.then(result => callback(null, result), err => callback(err))
+  }
 }
-
-module.exports = require('bluebird').promisify(streamToString)

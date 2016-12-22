@@ -7,7 +7,7 @@
 [![NPM Version](https://img.shields.io/npm/v/stream-string.svg?style=flat)](https://www.npmjs.com/package/stream-string)
 [![Downloads/Month](https://img.shields.io/npm/dm/stream-string.svg?style=flat)](https://www.npmjs.com/package/stream-string)
 
-Converts a stream to a string and supports promises.
+Converts a stream to a string, providing a promise or callback API.
 
 ## Installation
 
@@ -19,42 +19,42 @@ npm install --save stream-string
 
 ## Usage
 
-### Callbacks
-
-```js
-var fs = require('fs')
-var ss = require('stream-string')
-
-// Make a gzip stream (just for this example)
-var myStream = fs.createReadStream('./file').pipe(require('zlib').createGzip())
-
-ss(myStream, function (err, data) {
-    if (err) {
-        // Stream threw an error event
-        throw err
-    }
-    else {
-        // myStream was converted to a string, and that string is stored in data
-        console.log(data)
-    }
-})
-```
-
 ### Promises
 
 ```js
-var fs = require('fs')
-var ss = require('stream-string')
+const fs = require('fs')
+const ss = require('stream-string')
 
 // Make a gzip stream (just for this example)
-var myStream = fs.createReadStream('./file').pipe(require('zlib').createGzip())
+const myStream = fs.createReadStream('./file').pipe(require('zlib').createGzip())
 
-ss(myStream).then(function (data) {
+ss(myStream).then(data => {
+  // myStream was converted to a string, and that string is stored in data
+  console.log(data)
+}).catch(err => {
+  // myStream emitted an error event (err), so the promise from stream-string was rejected
+  throw err
+})
+```
+
+### Callbacks
+
+```js
+const fs = require('fs')
+const ss = require('stream-string')
+
+// Make a gzip stream (just for this example)
+const myStream = fs.createReadStream('./file').pipe(require('zlib').createGzip())
+
+ss(myStream, (err, data) => {
+  if (err) {
+    // myStream emitted an error event (err), which was passed to the callback
+    throw err
+  }
+  else {
     // myStream was converted to a string, and that string is stored in data
     console.log(data)
-}).error(function (err) {
-    // Stream threw an error event
-    throw err
+  }
 })
 ```
 
