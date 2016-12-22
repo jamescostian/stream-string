@@ -11,7 +11,7 @@ Converts a stream to a string, providing a promise or callback API.
 
 ## Installation
 
-Assuming you have [Node](http://nodejs.org) or [io.js](http://iojs.org), you can just run:
+Assuming you have [Node](http://nodejs.org), you can just run:
 
 ```
 npm install --save stream-string
