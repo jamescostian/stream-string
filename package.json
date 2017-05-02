@@ -8,8 +8,9 @@
   },
   "devDependencies": {
     "coveralls": "^2",
-    "jest": "^18",
-    "snazzy": "^5"
+    "jest": "^19",
+    "snazzy": "^7",
+		"standard": "^10"
   },
   "homepage": "https://github.com/jamescostian/stream-string",
   "jest": {
@@ -30,7 +31,7 @@
   },
   "scripts": {
     "coveralls": "cat coverage/lcov.info | coveralls",
-    "pretest": "snazzy",
+    "pretest": "standard | snazzy",
     "test": "jest"
   },
   "standard": {
