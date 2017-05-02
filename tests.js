@@ -15,7 +15,7 @@ describe('using the module with promises', () => {
   it('provides an error when the file can\'t be read', () =>
     ss(createReadStream('./not-a-file-in-here'))
       .then(
-        () => Promise.reject('uh-oh!'), // If the library resolves this promise, then the library is wrong
+        () => Promise.reject(new Error('uh-oh!')), // If the library resolves this promise, then the library is wrong
         () => expect(true).toBe(true) // If the library rejects this promise, it's all good :)
       )
   )
