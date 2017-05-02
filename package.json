@@ -10,7 +10,7 @@
     "coveralls": "^2",
     "jest": "^19",
     "snazzy": "^7",
-		"standard": "^10"
+    "standard": "^10"
   },
   "homepage": "https://github.com/jamescostian/stream-string",
   "jest": {
