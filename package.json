@@ -8,15 +8,22 @@
   },
   "devDependencies": {
     "coveralls": "^2",
-    "jest": "^20",
+    "jest": "^20.0.4",
     "snazzy": "^7",
     "standard": "^10"
   },
   "homepage": "https://github.com/jamescostian/stream-string",
   "jest": {
     "testRegex": "tests\\.js$",
-    "coverageReporters": ["json", "lcov", "text", "html"],
-    "collectCoverageFrom": ["index.js"],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "html"
+    ],
+    "collectCoverageFrom": [
+      "index.js"
+    ],
     "collectCoverage": true
   },
   "keywords": [
