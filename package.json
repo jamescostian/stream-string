@@ -7,13 +7,14 @@
     "url": "https://github.com/jamescostian/stream-string/issues"
   },
   "devDependencies": {
-    "coveralls": "^2",
-    "jest": "^20.0.4",
+    "coveralls": "^3",
+    "jest": "^23",
     "snazzy": "^7",
-    "standard": "^10"
+    "standard": "^11"
   },
   "homepage": "https://github.com/jamescostian/stream-string",
   "jest": {
+    "testURL": "http://localhost/",
     "testRegex": "tests\\.js$",
     "coverageReporters": [
       "json",
