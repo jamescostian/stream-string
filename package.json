@@ -1,6 +1,6 @@
 {
   "name": "stream-string",
-  "description": "Converts a stream to a string and supports promises.",
+  "description": "\"Converts\" a stream to a string. Promises are used by default, callbacks are allowed as well.",
   "version": "2.0.0",
   "author": "James Costian <james@jamescostian.com>",
   "bugs": {
