@@ -8,9 +8,9 @@
   },
   "devDependencies": {
     "coveralls": "^3",
-    "jest": "^23",
-    "snazzy": "^7",
-    "standard": "^11"
+    "jest": "^24",
+    "snazzy": "^8",
+    "standard": "^12"
   },
   "homepage": "https://github.com/jamescostian/stream-string",
   "jest": {

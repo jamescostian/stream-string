@@ -1,4 +1,4 @@
-const {createReadStream, readFileSync} = require('fs')
+const { createReadStream, readFileSync } = require('fs')
 const ss = require('./index.js')
 
 // List of files to be tested
