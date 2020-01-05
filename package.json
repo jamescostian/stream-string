@@ -7,10 +7,10 @@
     "url": "https://github.com/jamescostian/stream-string/issues"
   },
   "devDependencies": {
-    "coveralls": "^3.0.6",
+    "coveralls": "^3.0.9",
     "jest": "^24.9.0",
     "snazzy": "^8",
-    "standard": "^12"
+    "standard": "^14"
   },
   "homepage": "https://github.com/jamescostian/stream-string",
   "jest": {
